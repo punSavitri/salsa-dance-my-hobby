@@ -5,3 +5,9 @@ body {
   background-image: radial-gradient(#bdbfe3 0.5px, #e5e5f7 0.5px);
   background-size: 10px 10px;
 }
+.change-theme-button {
+  display: block;
+  margin: 30px auto;
+  font-family: cursive;
+  text-transform: capitalize;
+}
