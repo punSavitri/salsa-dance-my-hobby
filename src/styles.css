@@ -10,4 +10,96 @@ body {
   margin: 30px auto;
   font-family: cursive;
   text-transform: capitalize;
+  background: #885df1;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+.change-theme-button:hover {
+  background: #b8a6e4;
+  color: black;
+}
+.container {
+  max-width: 600px;
+  background-color: #fff;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0px 30px 50px rgba(57, 48, 90, 0.1);
+}
+h1 {
+  font-size: 38px;
+}
+h2 {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+h1,
+h2 {
+  line-height: 48px;
+  text-align: center;
+  font-weight: bold;
+  margin: 15px auto;
+  font-family: cursive;
+  color: black;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.grid img {
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+a {
+  color: #885df1;
+}
+.salsa-header-image {
+  margin: 15px 0;
+  transition: all 150ms ease-in-out;
+}
+.salsa-header-image:hover {
+  transform: scale(1.5);
+}
+.description {
+  padding-bottom: 10px;
+}
+.description p {
+  font-size: 18px;
+  line-height: 30px;
+  opacity: 0.5;
+}
+.get-in-touch-button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #885df1;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: all 150ms ease-in-out;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.get-in-touch-button:hover {
+  background: #b8a6e4;
+  color: black;
+}
+small {
+  text-align: center;
+  display: block;
+  margin-top: 15px;
 }
