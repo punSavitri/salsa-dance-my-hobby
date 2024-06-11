@@ -38,8 +38,9 @@ body.dark h2 {
   color: #d3cde0;
 }
 body.dark p {
-  color: #ebe5f7;
+  color: #fff;
 }
+
 .container {
   max-width: 600px;
   background-color: #fff;
@@ -98,7 +99,6 @@ a:hover {
 .description p {
   font-size: 18px;
   line-height: 30px;
-  opacity: 0.5;
 }
 .get-in-touch-button {
   display: block;
